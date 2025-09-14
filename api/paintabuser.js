@@ -4,7 +4,7 @@ export default function handler(req, res) {
 
   if (isRobloxOrDelta) {
     res.setHeader('Content-Type', 'text/plain');
-    res.status(200).send(`if game.PlaceId ~= 6403373529 then
+    res.status(200).send(`if game.PlaceId ~= 6403373529 and game.PlaceId ~= 124596094333302 then
     return
 end
 
